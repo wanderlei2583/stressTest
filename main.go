@@ -110,8 +110,8 @@ func makeRequests(url string, count int, results chan<- Result) {
 }
 
 func printReport(report Report) {
-	fmt.Printf("\nRelatório de Teste de Carga")
-	fmt.Printf("============================")
+	fmt.Printf("\nRelatório de Teste de Carga\n")
+	fmt.Printf("===========================")
 
 	fmt.Printf("\nDuração total: %v\n", report.TotalTime)
 	fmt.Printf("\nQuantidade de requisições: %d\n", report.TotalRequests)
