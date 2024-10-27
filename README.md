@@ -1,4 +1,4 @@
-# SSistema de Stress test
+# Sistema de Stress test
 
 Uma ferramenta de linha de comando em Go para realizar testes de carga em serviços web. Permite executar múltiplas requisições HTTP concorrentes e gera relatórios detalhados sobre o desempenho do serviço.
 
